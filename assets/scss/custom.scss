@@ -1,3 +1,51 @@
 /*
     You can add your own custom styles here.
 */
+:root {
+    /* 修改基础字体大小 */
+    --body-font-size: 1.5rem; 
+    
+    /* 修改字体族 - 优先使用更适合中文的系统字体 */
+    --base-font-family: "Inter", "PingFang SC", sans-serif;
+}
+
+/* 如果你想让文章标题更粗、更有力量 */
+.article-title {
+    font-weight: 1000;
+    letter-spacing: -0.01em;
+
+
+}
+
+
+/* blog title */
+.sidebar header .site-name {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
+}
+
+/* subtitle */
+.sidebar header .site-description {
+  font-size: 1.5rem;
+  opacity: 0.8;
+  font-weight: 450;
+  margin-bottom: 5rem;
+}
+
+/* menu整体 */
+.sidebar .menu {
+  margin-top: 0.6rem;
+}
+
+/* menu字体 */
+.sidebar .menu li a {
+  font-size: 1.6rem;
+  padding: 2px 0;
+}
+
+/* hover 时稍微亮一点 */
+.sidebar .menu li a:hover {
+  opacity: 0.7;
+}
