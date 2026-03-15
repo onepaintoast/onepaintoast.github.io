@@ -2,12 +2,10 @@
     You can add your own custom styles here.
 */
 :root {
-    /* 修改基础字体大小 */
-    --body-font-size: 1.5rem; 
-    
     /* 修改字体族 - 优先使用更适合中文的系统字体 */
-    --base-font-family: "Inter", "PingFang SC", sans-serif;
+    --base-font-family: "Lora", "Noto Sans", serif;
 }
+
 
 /* 如果你想让文章标题更粗、更有力量 */
 .article-title {
@@ -49,3 +47,4 @@
 .sidebar .menu li a:hover {
   opacity: 0.7;
 }
+

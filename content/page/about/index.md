@@ -1,6 +1,5 @@
 ---
 title: "About"
-date: 2026-03-06
 layout: "about"
 slug: "about"
 menu:
@@ -10,6 +9,8 @@ menu:
             icon: user
 comments: false
 toc: false
+readingTime: false
+
 ---
 
 一片吐司怎么样！

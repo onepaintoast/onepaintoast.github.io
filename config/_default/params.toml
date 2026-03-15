@@ -11,7 +11,9 @@ SortBy              = "default"
 
 [footer]
     since      = 2026
-    customText = ""
+    customText = "All rights reserved. 禁止转载。"
+
+
 
 [dateFormat]
     published   = ":date_full"
@@ -29,14 +31,14 @@ SortBy              = "default"
 
     [article.license]
         enabled = true
-        default = "Licensed under CC BY-NC-SA 4.0"
+        default = "All rights reserved. 禁止转载。"
 
 [widgets]
     homepage = [
         { type = "search" },
         { type = "archives", params = { limit = 5 } },
         { type = "categories", params = { limit = 10 } },
-        { type = "tag-cloud", params = { limit = 10 } },
+    #   { type = "tag-cloud", params = { limit = 10 } },
     ]
     page = [{ type = "toc" }]
 
@@ -47,10 +49,6 @@ SortBy              = "default"
 [colorScheme]
     toggle  = true
     default = "auto"
-
-
-customSCSS = ["scss/custom.scss"]
-
 
 ## Comments
 [comments]
